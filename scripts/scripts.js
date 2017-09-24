@@ -1,0 +1,1 @@
+"use strict";angular.module("yakuzaaaagithubioApp",["ngAnimate","ngAria","ngCookies","ngMessages","ngResource","ngSanitize","ngMaterial","ui.router"]).config(["$urlRouterProvider","$stateProvider",function(e,t){t.state("home",{url:"/home",templateUrl:"/views/home.html"}),e.otherwise("home")}]);
