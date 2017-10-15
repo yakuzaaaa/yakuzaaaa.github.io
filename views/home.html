@@ -1,0 +1,16 @@
+<div class="home-parent" layout="column" layout-align="center center" layout-fill>
+  <canvas class="surface-canvas" balls-canvas></canvas>
+  <div class="home-center-card" layout-padding layout="column" layout-align="space-around center">
+    <h1 class="home-center-text animate-typing" flex="15">
+        Nilarnab Mookherjee
+    </h1>
+    <img class="home-dp-round" src="../images/cat.jpg" flex="50">
+    <div layout="row">
+      <md-button class="md-raised md-primary" ng-click="landing.onAboutClicked()">About</md-button>
+      <md-button class="md-raised md-primary">Experiments</md-button>
+      <md-button class="md-raised md-primary">Tutorials</md-button>
+    </div>
+    <h3>Protip: Click on somewhere dark! </h3>
+  </div>
+</div>
+<div ui-view="home-dialogs"></div>
